@@ -11,96 +11,201 @@
 <body class="is-loading">
 
   <header class="nav">
-    <div class="logo">Berden<span>.</span>Ingrid</div>
-    <!--<ul>
+    <a href="#" class="logo">Berden<span>.</span>Ingrid</a>
+    <ul>
       <li><a href="#work">Atelier</a></li>
       <li><a href="#about">Over mij</a></li>
-      <li><a href="#journal">Journal</a></li>
+      <li><a href="#pricing">Tarieven</a></li>
       <li><a href="#contact">Contact</a></li>
-    </ul>-->
+    </ul>
   </header>
 
-  <main class="hero">
-    <section class="content">
-      <span class="eyebrow">Keramiek &amp; Menopause Consultatie</span>
-      <h1>Werken met <em>klei</em> en luisteren naar het lichaam.</h1>
-      <p class="lede">
-        Ik ben Ingrid, keramiste en menopauzeconsulente. In mijn atelier creëer ik rustgevende, tastbare objecten. Diezelfde rust en oprechte aandacht neem ik mee naar mijn praktijk, waar ik vrouwen gids doorheen de overgang.
-      </p>
-      <div class="cta-row">
-        <a href="#work" class="btn btn-primary">Bekijk mijn werk →</a>
-        <a href="#contact" class="btn btn-ghost">Plan een gesprek</a>
-      </div>
-      <div class="stats">
-        <div class="stat"><strong>1-op-1</strong><span>Persoonlijke begeleiding</span></div>
-        <div class="stat"><strong>100%</strong><span>Aandacht voor jouw verhaal</span></div>
-        <div class="stat"><strong>0</strong><span>Taboes over de overgang</span></div>
-      </div>
-    </section>
-
-    <section class="portrait-wrap">
-      <!-- BACK rings (behind the portrait) -->
-      <svg class="rings rings-back" viewBox="-100 0 600 500" preserveAspectRatio="none" aria-hidden="true">
-        <defs>
-          <path id="orbit1-b" d="M -40,250 a 240,46 -8 1,0 480,0 a 240,46 -8 1,0 -480,0" pathLength="100"/>
-          <path id="orbit2-b" d="M -20,250 a 220,38  6 1,0 440,0 a 220,38  6 1,0 -440,0" pathLength="100"/>
-          <path id="orbit3-b" d="M   0,250 a 200,30 -3 1,0 400,0 a 200,30 -3 1,0 -400,0" pathLength="100"/>
-        </defs>
-
-        <!--<use href="#orbit1-b" class="ring-path r1" />-->
-        <use href="#orbit1-b" class="ring-path r1 tail" />
-        <use href="#orbit1-b" class="ring-path r1 body" />
-        <use href="#orbit1-b" class="ring-path r1 head" />
-
-        <!--<use href="#orbit2-b" class="ring-path r2" />-->
-        <use href="#orbit2-b" class="ring-path r2 tail" />
-        <use href="#orbit2-b" class="ring-path r2 body" />
-        <use href="#orbit2-b" class="ring-path r2 head" />
-
-        <!--<use href="#orbit3-b" class="ring-path r3" />-->
-        <use href="#orbit3-b" class="ring-path r3 tail" />
-        <use href="#orbit3-b" class="ring-path r3 body" />
-        <use href="#orbit3-b" class="ring-path r3 head" />      
-
-      </svg>
-
-      <!-- Portrait frame -->
-      <div class="portrait-frame">
-        <img
-          class="portrait"
-          src="https://images.pexels.com/photos/8063876/pexels-photo-8063876.jpeg?_gl=1*iy83eb*_ga*MTEwNTEwNjA4OC4xNzc5ODc4OTY5*_ga_8JE65Q40S6*czE3Nzk5NTQyODYkbzQkZzEkdDE3Nzk5NTQyODckajU5JGwwJGgw"
-          alt="Portret van Ingrid Berden"
-        />
-        <div class="portrait-tint"></div>
-        <div class="loader-rect" aria-hidden="true"></div>
+  <!-- Section 1: Hero (Full screen height) -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="content">
+        <span class="eyebrow">Keramiek &amp; Menopause Consultatie</span>
+        <h1>Werken met <em>klei</em> en luisteren naar het lichaam.</h1>
+        <p class="lede">
+          Ik ben Ingrid, keramiste en menopauzeconsulente. In mijn atelier creëer ik rustgevende, tastbare objecten. Diezelfde rust en oprechte aandacht neem ik mee naar mijn praktijk, waar ik vrouwen gids doorheen de overgang.
+        </p>
+        <p class="lede">
+          Hiervoor bied ik individuele professionele consultaties én bedrijfsgerichte infosessies aan.
+        </p>
+        <p class="lede">
+          In een individueel consult wordt ruimte gemaakt voor een persoonlijke evaluatie, informatieverstrekking en begeleiding op maat.
+        </p>
+        <p class="lede">
+          Voor bedrijven en organisaties verzorg ik evidence-based infosessies en workshops over menopauze op de werkvloer. Deze sessies bieden medewerkers en leidinggevenden wetenschappelijk onderbouwde inzichten en praktische handvatten om menopauze bespreekbaar te maken en ondersteuning te bevorderen.
+        </p>
+        <div class="cta-row">
+          <a href="#pricing" class="btn btn-primary">Bekijk tarieven →</a>
+          <a href="#contact" class="btn btn-ghost">Plan een gesprek</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>1-op-1</strong><span>Persoonlijke begeleiding</span></div>
+          <div class="stat"><strong>100%</strong><span>Aandacht voor jouw verhaal</span></div>
+          <div class="stat"><strong>0</strong><span>Taboes over de overgang</span></div>
+        </div>
       </div>
 
-      <!-- FRONT rings (in front of the portrait) -->
-      <svg class="rings rings-front" viewBox="-100 0 600 500" preserveAspectRatio="none" aria-hidden="true">
-        <defs>
-          <path id="orbit1-f" d="M -40,250 a 240,46 -8 1,0 480,0 a 240,46 -8 1,0 -480,0" pathLength="100"/>
-          <path id="orbit2-f" d="M -20,250 a 220,38  6 1,0 440,0 a 220,38  6 1,0 -440,0" pathLength="100"/>
-          <path id="orbit3-f" d="M   0,250 a 200,30 -3 1,0 400,0 a 200,30 -3 1,0 -400,0" pathLength="100"/>
-        </defs>
+      <div class="portrait-wrap">
+        <!-- BACK rings (behind portrait) -->
+        <svg class="rings rings-back" viewBox="-100 0 600 500" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <path id="orbit1-b" d="M -40,250 a 240,46 -8 1,0 480,0 a 240,46 -8 1,0 -480,0" pathLength="100"/>
+            <path id="orbit2-b" d="M -20,250 a 220,38  6 1,0 440,0 a 220,38  6 1,0 -440,0" pathLength="100"/>
+            <path id="orbit3-b" d="M   0,250 a 200,30 -3 1,0 400,0 a 200,30 -3 1,0 -400,0" pathLength="100"/>
+          </defs>
+          <use href="#orbit1-b" class="ring-path r1 tail" />
+          <use href="#orbit1-b" class="ring-path r1 body" />
+          <use href="#orbit1-b" class="ring-path r1 head" />
+          <use href="#orbit2-b" class="ring-path r2 tail" />
+          <use href="#orbit2-b" class="ring-path r2 body" />
+          <use href="#orbit2-b" class="ring-path r2 head" />
+          <use href="#orbit3-b" class="ring-path r3 tail" />
+          <use href="#orbit3-b" class="ring-path r3 body" />
+          <use href="#orbit3-b" class="ring-path r3 head" />      
+        </svg>
 
-        <!--<use href="#orbit1-f" class="ring-path r1" />-->
-        <use href="#orbit1-f" class="ring-path r1 tail" />
-        <use href="#orbit1-f" class="ring-path r1 body" />
-        <use href="#orbit1-f" class="ring-path r1 head" />
+        <!-- Portrait frame -->
+        <div class="portrait-frame">
+          <img
+            class="portrait"
+            src="https://images.pexels.com/photos/8063876/pexels-photo-8063876.jpeg?_gl=1*iy83eb*_ga*MTEwNTEwNjA4OC4xNzc5ODc4OTY5*_ga_8JE65Q40S6*czE3Nzk5NTQyODYkbzQkZzEkdDE3Nzk5NTQyODckajU5JGwwJGgw"
+            alt="Portret van Ingrid Berden"
+          />
+          <div class="portrait-tint"></div>
+          <div class="loader-rect" aria-hidden="true"></div>
+        </div>
 
-        <!--<use href="#orbit2-f" class="ring-path r2" />-->
-        <use href="#orbit2-f" class="ring-path r2 tail" />
-        <use href="#orbit2-f" class="ring-path r2 body" />
-        <use href="#orbit2-f" class="ring-path r2 head" />
+        <!-- FRONT rings (in front of portrait) -->
+        <svg class="rings rings-front" viewBox="-100 0 600 500" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <path id="orbit1-f" d="M -40,250 a 240,46 -8 1,0 480,0 a 240,46 -8 1,0 -480,0" pathLength="100"/>
+            <path id="orbit2-f" d="M -20,250 a 220,38  6 1,0 440,0 a 220,38  6 1,0 -440,0" pathLength="100"/>
+            <path id="orbit3-f" d="M   0,250 a 200,30 -3 1,0 400,0 a 200,30 -3 1,0 -400,0" pathLength="100"/>
+          </defs>
+          <use href="#orbit1-f" class="ring-path r1 tail" />
+          <use href="#orbit1-f" class="ring-path r1 body" />
+          <use href="#orbit1-f" class="ring-path r1 head" />
+          <use href="#orbit2-f" class="ring-path r2 tail" />
+          <use href="#orbit2-f" class="ring-path r2 body" />
+          <use href="#orbit2-f" class="ring-path r2 head" />
+          <use href="#orbit3-f" class="ring-path r3 tail" />
+          <use href="#orbit3-f" class="ring-path r3 body" />
+          <use href="#orbit3-f" class="ring-path r3 head" />
+        </svg>
+      </div>
+    </div>
+  </section>
 
-        <!--<use href="#orbit3-f" class="ring-path r3" />-->
-        <use href="#orbit3-f" class="ring-path r3 tail" />
-        <use href="#orbit3-f" class="ring-path r3 body" />
-        <use href="#orbit3-f" class="ring-path r3 head" />
+  <!-- Section 2: About Section -->
+  <section id="about" class="about-section">
+    <div class="section-inner">
+      <span class="eyebrow">Achtergrond &amp; Expertise</span>
+      <h2>Ervaring in de zorg, passie voor de mens.</h2>
+      <div class="about-grid">
+        <div class="about-column">
+          <p class="lede">
+            Ik ben gediplomeerd verpleegkundige en vroedvrouw met een brede ervaring in zowel de gezondheidszorg als medische educatie.
+          </p>
+          <p class="lede">
+            Gedurende 25 jaar was ik werkzaam bij Agfa Healthcare als applicatieconsultant. In deze functie begeleidde en ondersteunde ik radiologen, verpleegkundigen en andere zorgprofessionals bij het gebruik van medische beeldvormingssystemen. Het geven van opleidingen, het vertalen van complexe medische informatie naar de praktijk en het begeleiden van zorgverleners stonden hierbij centraal.
+          </p>
+        </div>
+        <div class="about-column">
+          <p class="lede">
+            Vanuit mijn interesse in vrouwengezondheid ben ik mij verder gaan specialiseren in menopauzezorg. Sinds juni 2026 bezit ik mijn postgraduaat getuigschrift van Menopauzeconsulent. Deze expertise stelt mij in staat om vrouwen op een professionele, wetenschappelijk onderbouwde manier te informeren en begeleiden.
+          </p>
+          <p class="lede">
+            Naast mijn professionele activiteiten vind ik als keramiste rust en creativiteit in het werken met klei. Deze creatieve passie vormt een waardevol evenwicht en weerspiegelt mijn aandacht voor zorg, vakmanschap en persoonlijke groei.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      </svg>
-    </section>
-  </main>
+  <!-- Section 3: Pricing Section with Interactive Switcher -->
+  <section id="pricing" class="pricing-section">
+    <div class="section-inner">
+      <span class="eyebrow">Tarieven &amp; Aanbod</span>
+      <h2>Kies de ondersteuning die bij jou past</h2>
+
+      <!-- Selection Bar (4 options) -->
+      <div class="pricing-selector" role="radiogroup" aria-label="Kies een pakket">
+        <button class="selector-btn active" data-option="1" role="radio" aria-checked="true">
+          Solidares
+        </button>
+        <button class="selector-btn" data-option="2" role="radio" aria-checked="false">
+          Helan
+        </button>
+        <button class="selector-btn" data-option="3" role="radio" aria-checked="false">
+          Liberale mutualiteit
+        </button>
+        <button class="selector-btn" data-option="4" role="radio" aria-checked="false">
+          Vlaams & Neutraal Ziekenfonds
+        </button>
+      </div>
+
+      <!-- Pricing Frame with Smooth Blur Transition -->
+<div class="pricing-frame" id="pricing-frame">
+  <div class="pricing-card-content">
+    
+    <span class="pricing-tag" id="pricing-tag">Solidares</span>
+    <h3 id="pricing-title">Tarieven Consultaties</h3>
+    
+    <!-- 2x2 Grid Layout -->
+    <div class="pricing-grid">
+      <!-- Left Column: In Person -->
+      <div class="pricing-column">
+        <h4>In de praktijk</h4>
+        <div class="price-card">
+          <strong>Intake consult</strong>
+          <span>90 minuten</span>
+          <div class="price-display">
+            <span class="price-old" id="price-in-intake-old">100€</span>
+            <span class="price-new" id="price-in-intake-new">60€</span>
+          </div>
+        </div>
+        <div class="price-card">
+          <strong>Opvolg consult</strong>
+          <span>60 minuten</span>
+          <div class="price-display">
+            <span class="price-old" id="price-in-opvolg-old">70€</span>
+            <span class="price-new" id="price-in-opvolg-new">30€</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column: Online -->
+      <div class="pricing-column">
+        <h4>Online (Video)</h4>
+        <div class="price-card">
+          <strong>Intake consult</strong>
+          <span>90 minuten</span>
+          <div class="price-display">
+            <span class="price-old" id="price-out-intake-old">90€</span>
+            <span class="price-new" id="price-out-intake-new">50€</span>
+          </div>
+        </div>
+        <div class="price-card">
+          <strong>Opvolg consult</strong>
+          <span>60 minuten</span>
+          <div class="price-display">
+            <span class="price-old" id="price-out-opvolg-old">60€</span>
+            <span class="price-new" id="price-out-opvolg-new">20€</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#contact" class="btn btn-primary" style="margin-top: 1rem;">Afspraak maken →</a>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
